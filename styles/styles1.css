@@ -1,44 +1,183 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  background: #000000;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+p {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 26px;
+}
+.menu {
+  padding-top: 36px;
+  height: 55px;
+    
   }
 
-  body {
-    font-family: 'IBM Plex Mono', sans-serif;
-    background: #000000;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.03em;
-  }
-  p {
-    color:#FFFFFF;
-    font-size: 20px;
-    line-height: 26px;
-  }
-  /* .header {
-    background-image: url('../resources1/privet.png')
-  } */
+h1 {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  color: #1bff07;
+  font-size: 80px;
+  line-height: 70px;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
 
-  h1 {
-    color: #1BFF07;
-    font-size: 80px;
-    line-height: 70px;
+h2 {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 72px;
+  color: #ffffff;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.container {
+  width: 1155px;
+  margin: auto;
+}
+
+.logo {
+  display: inline-block;
+   width: 130px;
+  height: 39px;
+  background: #000000;
+  border-radius: 100px;
+}
+.logo-text {
+  padding: 4px 0 0 11px;
+
+}
+
+nav {
+  float: right;
+}
+
+.nav__link {
+  margin-left: 43px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: -0.03em;
+
+}
+
+.nav__link:hover {
+  color: #1bff07;
+}
+
+.main-photo {
+  background-image:linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0.52%,
+    rgba(0, 0, 0, 0.4) 82.81%
+  ),url('../resources1/privet.png');
+  /* background-repeat: no-repeat;  */
+  /* background-size: cover; */
+  /* background-position: 50% 0; */
+  width: 100%;
+  height: 765px;
+  
+}
+
+.main-photo-text {
+  padding: 280px 0 29px 0;
+    
+   
   }
 
-  .container {
-    width: 1155px;
-    margin: auto;
-  }
+.new-projects {
+  height: 1995px;
+  margin-top: 150px;
 
-  .main-photo {
-    background-image: url('../resources1/privet.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 0;
-    width: 100%;
-    height: 765px;
-    /* background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0.52%,
-        rgba(0, 0, 0, 0.4) 82.81%
-      ),url('../resources/projectforest.png'); */
-  }
+}
+
+.see__all__projects {
+  margin-top: 80px;
+  display: block;
+  width: 582px;
+  height: 153px;
+
+  background-color: #1bff07;
+  border-radius: 10px;
+  color: #000000;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 153px;
+  text-align: center;
+}
+.see__all__projects:hover {
+  background: #000000;
+  border-radius: 10px;
+  border: 1px solid #1bff07;
+  color: #1bff07;
+}
+
+.realhome {
+  margin-top: 40px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url("../resources1/realhome.png");
+  width: 100%;
+  height: 550px;
+  border-radius: 30px;
+  background-size: cover;
+}
+
+.glass {
+  position: relative;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url("../resources1/glass.png");
+  width: 100%;
+  height: 550px;
+  border-radius: 30px;
+  background-size: cover;
+}
+
+.fesiyen {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url("../resources1/fesiyen.png");
+  width: 100%;
+  height: 550px;
+  border-radius: 30px;
+  background-size: cover;
+}
+
+.img-text {
+  padding: 410px 699px 50px 50px;
+}
+
