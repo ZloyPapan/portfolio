@@ -29,9 +29,10 @@ h1 {
   font-style: normal;
   color: #1bff07;
   font-size: 80px;
-  line-height: 70px;
+  line-height: 69px;
   font-weight: 400;
   letter-spacing: -0.03em;
+  margin-left: -5px;
 }
 
 h2 {
@@ -42,6 +43,7 @@ h2 {
   line-height: 72px;
   color: #ffffff;
   letter-spacing: -0.03em;
+  margin-left: -3px;
 }
 
 h3 {
@@ -55,7 +57,7 @@ h3 {
 }
 
 .container {
-  width: 1155px;
+  width: 1150px;
   margin: auto;
 }
 
@@ -67,7 +69,7 @@ h3 {
   border-radius: 100px;
 }
 .logo-text {
-  padding: 4px 0 0 11px;
+  padding: 4px 0 0 8px;
 
 }
 
@@ -76,7 +78,7 @@ nav {
 }
 
 .nav__link {
-  margin-left: 43px;
+  margin-left: 42px;
   font-size: 18px;
   line-height: 20px;
   text-align: left;
@@ -270,18 +272,20 @@ nav {
   line-height: 46px;
 }
 
-.gray-block:first-child {
-  margin-top: 76px;
-
-}
-
 .gray-block {
   padding: 40px 0 0 40px;
   margin-top: -3px;
-  margin-bottom: 150px;
+  margin-bottom: 76px;
   background-image: url('../resources1/greyblock.png');
   background-repeat: no-repeat;
   height: 283px;
+}
+
+.next {
+  margin-bottom: 137px;
+}
+.bottom {
+  margin-bottom: 150px;
 }
  
 .text-in-gray {
@@ -318,10 +322,8 @@ nav {
   
 }
 
-.social-link-in {
+.social-link {
   display: block;
-  margin-top: 34px;
-  margin-bottom: 20px;
   text-decoration: none;
   font-family: 'IBM Plex Mono';
   font-style: normal;
@@ -332,29 +334,13 @@ nav {
   color: #FFFFFF;
 }
 
-.social-link-tg {
-  display: block;
+.in {
+  margin-top: 37px;
   margin-bottom: 20px;
-  text-decoration: none;
-  font-family: 'IBM Plex Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -0.03em;
-  color: #FFFFFF;
 }
 
-.social-link {
-  display: block;
-  text-decoration: none;
-  font-family: 'IBM Plex Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -0.03em;
-  color: #FFFFFF;
+.tg {
+  margin-bottom: 20px;
 }
 
 .footer-white {
@@ -363,29 +349,24 @@ nav {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   background: #FFFFFF;
-  font-family: 'Manrope', sans-serif;
   width: 100%;
 }
 
 .footer-text {
-  padding-top: 76px;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: -0.03em;
+  padding-top: 77px;
   margin-bottom: 66px;
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 400;
   font-size: 22px;
   line-height: 30px;
-  letter-spacing: -0.03em;
   color: #000000;
 }
 
 .copyright {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: -0.03em;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #000000;
   opacity: 0.5;
 }

@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <title>MyPortfolio</title>
   <link rel="stylesheet" href="styles/reset1.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles1.css" />
 </head>
 
@@ -40,7 +40,7 @@
   <main>
     <section>
       <div class="new-projects container">
-        <h2>Самые свежие проекты</h2>
+        <h2 id="about">Самые свежие проекты</h2>
         <div class="realhome">
           <div class="img-text">
             <h3>Realhome</h3>
@@ -65,7 +65,7 @@
     </section>
     <section>
       <div class="competition container">
-        <h2>Мои компетенции</h2>
+        <h2 id="project">Мои компетенции</h2>
         <div class="htmlcss">
           <h3 class="competition-name">HTML и CSS</h3>
           <p class="competition-text">это основа фронтенд разработки. Умение создавать и правильно<br> структурировать
@@ -101,7 +101,7 @@
       </div>
     </section>
     <section>
-      <h3 class="help-title container">Помогаю реализовать<br> широкий спектр задач</h3>
+      <h3 id="services_list" class="help-title container">Помогаю реализовать<br> широкий спектр задач</h3>
       <div class="container">
         <img src="resources1/keytop.png" alt="Разработка сайта под ключ">
         <div class="gray-block">
@@ -116,7 +116,7 @@
           </div>
         </div>
         <img src="resources1/sitetop.png" alt="Верстка сайтов">
-        <div class="gray-block">
+        <div class="gray-block next">
           <div class="in-gray">
             <h2 class="text-in-gray">Верстка сайтов</h2>
             <p class="competition-text">Это процесс создания HTML-документов и применения к ним<br> стилей на CSS. Фронтенд
@@ -124,7 +124,7 @@
           </div>
         </div>
         <img src="resources1/mobtop.png" alt="Разработка мобильного интерфейса">
-        <div class="gray-block">
+        <div class="gray-block bottom">
           <div class="in-gray">
             <h2 class="text-in-gray">Разработка мобильного интерфейса</h2>
             <p class="competition-text">Это процесс создания интерактивных элементов на странице<br> с помощью JavaScript.
@@ -139,9 +139,9 @@
     <div class="social-fuild">
       <img class="footer-pic" src="resources1/poka.png" alt="Очкарик в наушниках">
       <div class="social-link-block">
-        <h3>для связи:</h3>
-        <a class="social-link-in" href="#">instagram</a>
-        <a class="social-link-tg" href="#">telegram</a>
+        <h3 id="contacts">для связи:</h3>
+        <a class="social-link in" href="#">instagram</a>
+        <a class="social-link tg" href="#">telegram</a>
         <a class="social-link" href="#">mail</a>
       </div>
     </div>
