@@ -1,10 +1,21 @@
+@import "../styles/burger.css";
+@import "../styles/competitions.css";
+@import "../styles/contacts.css";
+@import "../styles/header.css";
+@import "../styles/footer.css";
+@import "../styles/projects.css";
+@import "../styles/services.css";
+@import "../styles/about.css";
+
+
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "IBM Plex Mono", sans-serif;
-  background: #000000;
+  font-family: "Roboto Flex", sans-serif;
+  background: linear-gradient(#110f25, #121212);
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.03em;
@@ -18,19 +29,15 @@ p {
   
   
 }
-.menu {
-  padding-top: 36px;
-  height: 55px;
-    
-  }
+
 
 h1 {
-  font-family: "IBM Plex Mono";
+  font-family: "Roboto Flex";
   font-style: normal;
-  color: #1bff07;
+  font-weight: 900;
+  color: #fff;
   font-size: 80px;
   line-height: 69px;
-  font-weight: 400;
   letter-spacing: -0.03em;
   margin-left: -5px;
 }
@@ -61,316 +68,15 @@ h3 {
   margin: auto;
 }
 
-.logo {
-  display: inline-block;
-   width: 130px;
-  height: 39px;
-  background: #000000;
-  border-radius: 100px;
-}
-.logo-text {
-  padding: 4px 0 0 8px;
 
-}
 
-nav {
-  float: right;
-}
 
-.nav__link {
-  margin-left: 42px;
-  font-size: 18px;
-  line-height: 20px;
-  text-align: left;
-  text-decoration: none;
-  color: #ffffff;
-  letter-spacing: -0.03em;
 
-}
 
-.nav__link:hover {
-  color: #1bff07;
-}
 
-.main-photo {
-  background-image:linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0.52%,
-    rgba(0, 0, 0, 0.4) 82.81%
-  ),url('../resources1/privet.png');
-  background-repeat: no-repeat; 
-  background-size: cover;
-  background-position: 50% 50%;
-  width: 100%;
-  height: 765px;
-  
-}
 
-.main-photo-text {
-  padding: 280px 0 29px 0;
-  font-size: 20px;
-  line-height: 26px;
-  color: #FFFFFF;
-  }
 
-.new-projects {
-  height: 1995px;
-  margin-top: 150px;
 
-}
 
-.see__all__projects {
-  margin-top: 80px;
-  display: block;
-  width: 582px;
-  height: 153px;
 
-  background-color: #1bff07;
-  border-radius: 10px;
-  color: #000000;
-  letter-spacing: -0.03em;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 153px;
-  text-align: center;
-}
-.see__all__projects:hover {
-  background: #000000;
-  border-radius: 10px;
-  border: 1px solid #1bff07;
-  color: #1bff07;
-}
 
-.realhome {
-  margin-top: 40px;
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.9) 100%
-    ),
-    url("../resources1/realhome.png");
-  width: 100%;
-  height: 550px;
-  border-radius: 30px;
-  background-size: cover;
-}
-
-.glass {
-  position: relative;
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.9) 100%
-    ),
-    url("../resources1/glass.png");
-  width: 100%;
-  height: 550px;
-  border-radius: 30px;
-  background-size: cover;
-}
-
-.fesiyen {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.9) 100%
-    ),
-    url("../resources1/fesiyen.png");
-  width: 100%;
-  height: 550px;
-  border-radius: 30px;
-  background-size: cover;
-}
-
-.img-text {
-  padding: 410px 672px 50px 50px;
-}
-
-.new-projects-text {
-  margin-top: 5px;
-  font-size: 30px;
-  line-height: 40px;
-  color: #FFFFFF;
-}
-
-.competition {
-  margin-top: 150px;
-}
-
-.competition-name {
-  color: #1bff07;
-}
-
-.competition-text {
-  margin-top: 15px;
-  font-size: 22px;
-  line-height: 29px;
-  color: #FFFFFF;
-}
-
-.htmlcss {
-  margin-top: 49px;
-}
-
-.htmlcss::before {
-  margin-bottom: 12px;
-  content: "";
-  background-image: url("../resources1/htmlcss.png");
-  display: block;
-  width: 45px;
-  height: 44px;
-}
-
-.java {
-  margin-top: 60px;
-}
-
-.java::before {
-  margin-bottom: 15px;
-  content: "";
-  background-image: url("../resources1/java.png");
-  display: block;
-  width: 45px;
-  height: 44px;
-
-}
-
-.lib {
-  margin-top: 59px;
-}
-
-.lib::before {
-  margin-bottom: 17px;
-  content: "";
-  background-image: url("../resources1/lib.png");
-  display: block;
-  width: 45px;
-  height: 44px;
-}
-
-.mob {
-  margin-top: 59px;
-}
-
-.mob::before {
-  margin-bottom: 17px;
-  content: "";
-  background-image: url("../resources1/mob.png");
-  display: block;
-  width: 45px;
-  height: 44px;
-}
-
-/* .help {
-  margin-top: 150px;
-} */
-.help-title {
-  margin-top: 150px;
-  margin-bottom: 74px;
-  font-size: 35px;
-  line-height: 46px;
-}
-
-.gray-block {
-  padding: 40px 0 0 40px;
-  margin-top: -3px;
-  margin-bottom: 76px;
-  background-image: url('../resources1/greyblock.png');
-  background-repeat: no-repeat;
-  height: 283px;
-}
-
-.next {
-  margin-bottom: 137px;
-}
-.bottom {
-  margin-bottom: 150px;
-}
- 
-.text-in-gray {
-  color: #1bff07;
- 
-}
-
-.in-gray {
-  
-  left: 43px;
-  top: 42px;
-}
-
-.social-fuild {
-  position: relative;
-  margin-bottom: 150px;
-  width: 100%;
-  height: 717px;
-  background: #191C19;
-  border-radius: 30px;
-}
-
-.footer-pic {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  border-radius: 30px;
-}
-
-.social-link-block {
-  padding-top: 326px;
-  width: 1150px;
-  margin: auto;
-  
-}
-
-.social-link {
-  display: block;
-  text-decoration: none;
-  font-family: 'IBM Plex Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -0.03em; 
-  color: #FFFFFF;
-}
-
-.in {
-  margin-top: 37px;
-  margin-bottom: 20px;
-}
-
-.tg {
-  margin-bottom: 20px;
-}
-
-.social-link:hover {
-  color: #1bff07;
-}
-
-.footer-white {
-  height: 223px;
-  margin-top: 150px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  background: #FFFFFF;
-  width: 100%;
-}
-
-.footer-text {
-  font-family: 'Manrope', sans-serif;
-  letter-spacing: -0.03em;
-  padding-top: 77px;
-  margin-bottom: 66px;
-  font-size: 22px;
-  line-height: 30px;
-  color: #000000;
-}
-
-.copyright {
-  font-family: 'Manrope', sans-serif;
-  letter-spacing: -0.03em;
-  font-size: 20px;
-  line-height: 27px;
-  color: #000000;
-  opacity: 0.5;
-}

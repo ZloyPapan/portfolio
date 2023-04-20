@@ -1,0 +1,28 @@
+.footer-white {
+    height: 223px;
+    margin-top: 150px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #FFFFFF;
+    width: 100%;
+  }
+  
+  .footer-text {
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: -0.03em;
+    padding-top: 77px;
+    margin-bottom: 66px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+  }
+  
+  .copyright {
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: -0.03em;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  
