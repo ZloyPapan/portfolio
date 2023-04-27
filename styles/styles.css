@@ -21,7 +21,7 @@ body {
   letter-spacing: -0.03em;
 }
 p {
-  font-family: "IBM Plex Mono";
+  font-family: "Roboto Flex";
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.03em;
@@ -35,7 +35,8 @@ h1 {
   font-family: "Roboto Flex";
   font-style: normal;
   font-weight: 900;
-  color: #fff;
+  text-shadow: 2px 2px 4px #110f25;
+  color: #e2feff;
   font-size: 80px;
   line-height: 69px;
   letter-spacing: -0.03em;
@@ -43,23 +44,23 @@ h1 {
 }
 
 h2 {
-  font-family: "IBM Plex Mono";
+  font-family: "Roboto Flex";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 55px;
   line-height: 72px;
-  color: #ffffff;
+  color: #e2feff;
   letter-spacing: -0.03em;
   margin-left: -3px;
 }
 
 h3 {
-  font-family: "IBM Plex Mono";
+  font-family: "Roboto Flex";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 35px;
   line-height: 46px;
-  color: #ffffff;
+  color: #e2feff;
   letter-spacing: -0.03em;
 }
 

@@ -13,18 +13,20 @@
 </head>
 
 <body>
-  <header class="hea">
+  <header class="header">
     <div class="main-photo">
       <div class="container">
         <div class="menu">
           <div class="logo">
-            <img class="logo-text" src="resources1/ORLOV.png" alt="Фамилия">
+            <p class="logo-text">NIKITIN</p>
           </div>
           <nav>
-            <a href="#about" class="nav__link">портфолио</a>
-            <a href="#project" class="nav__link">компетенции</a>
-            <a href="#services_list" class="nav__link">услуги</a>
-            <a href="#contacts" class="nav__link">контакты</a>
+            <ul class="menu-list">
+              <li><a href="#about" class="nav__link">портфолио</a></li>
+              <li><a href="#project" class="nav__link">компетенции</a></li>
+              <li><a href="#services_list" class="nav__link">услуги</a></li>
+              <li><a href="#contacts" class="nav__link">контакты</a></li>
+            </ul>
           </nav>
         </div>
         <p class="main-photo-text">
@@ -33,33 +35,44 @@
           конкурентов
         </p>
         <h1 class="">
-          Привет, я Cаша —<br>фронтенд разарботчик<br> и дизайнер сайтов
+          Привет, я Павел —<br>фронтенд разработчик<br> и дизайнер сайтов
         </h1>
       </div>
     </div>
   </header>
   <main>
     <section class="projects">
-      <div class="new-projects container">
+      <div class="container">
         <h2 id="about">Самые свежие проекты</h2>
-        <div class="realhome">
-          <div class="img-text">
-            <h3>Realhome</h3>
-            <p class="new-projects-text">дизайн,верстка, настройка</p>
-          </div>
-        </div>
-        <div class="glass">
-          <div class="img-text">
-            <h3>GLASS</h3>
-            <p class="new-projects-text">разработка интерфейса</p>
-          </div>
-        </div>
-        <div class="fesiyen">
-          <div class="img-text">
-            <h3>Fesiyen</h3>
-            <p class="new-projects-text">разработка интерфейса</p>
-          </div>
-        </div>
+       <div class="project__img">
+        <a href="https://zloypapan.github.io/metrika-adaptive/" target="_blank" class="project__img-link">
+          <picture>
+            <source media="(max-width: 500px)" srcset="resources1/studio-metrika-mob.jpg">
+            <img class="project__img-interior" src="resources1/studio-metrika.jpg" alt="">
+          </picture>
+        </a>
+        <p class="project__img-item">дизайн интерьера</p>
+        <p class="project__img-name">Метрика</p>
+        <p class="project__img-service">верстка, настройка</p>
+       </div>
+       <div class="project__img">
+        <picture>
+          <source media="(max-width: 500px)" srcset="resources1/nothing-mob.jpg">
+          <img src="resources1/nothing.jpg" alt="" class="project__img-interior">
+        </picture>
+        <p class="project__img-item">презентация продукта</p>
+        <p class="project__img-name">Nothing</p>
+        <p class="project__img-service">верстка, настройка</p>
+       </div>
+       <div class="project__img">
+        <picture>
+          <source media="(max-width: 500px)" srcset="resources1/toptrip-mob.jpg">
+          <img src="resources1/toptrip.jpg" alt="" class="project__img-interior">
+        </picture>
+        <p class="project__img-item">заказ путешествий</p>
+        <p class="project__img-name">TOPTRIP</p>
+        <p class="project__img-service">верстка</p>
+       </div>
         <a class="see__all__projects" href="/">Смотреть все проекты</a>
       </div>
       </div>
@@ -67,37 +80,39 @@
     <section class="competitions">
       <div class="competition container">
         <h2 id="project">Мои компетенции</h2>
-        <div class="htmlcss">
-          <h3 class="competition-name">HTML и CSS</h3>
-          <p class="competition-text">это основа фронтенд разработки. Умение создавать и правильно<br> структурировать
-            HTML-документы, а также
-            применять стили к этим<br> документам на CSS, является обязательным навыком для каждого<br> фронтенд
-            разработчика.
-          </p>
-        </div>
-        <div class="java">
-          <h3 class="competition-name">JavaScript</h3>
-          <p class="competition-text">это язык программирования, который используется для создания<br> динамического и
-            интерактивного
-            пользовательского интерфейса.<br> Хороший фронтенд разработчик должен быть знаком с основами<br> JavaScript,
-            включая
-            работу с DOM-деревом, асинхронными<br> запросами и манипуляцией данными на стороне клиента.</p>
-        </div>
-        <div class="lib">
-          <h3 class="competition-name">Работа с библиотеками и фреймворками</h3>
-          <p class="competition-text">фронтенд разработчики должны быть знакомы с различными<br> библиотеками и
-            фреймворками, такими как React,
-            Angular, Vue и<br> другими. Умение использовать готовые решения, адаптировать их<br> под нужды проекта и
-            расширять
-            их функциональность, является<br> очень важным навыком.</p>
-        </div>
-        <div class="mob">
-          <h3 class="competition-name">Разработка для мобильных<br> устройств и адаптивная верстка</h3>
-          <p class="competition-text">фронтенд разработчики должны быть знакомы с различными<br> библиотеками и
-            фреймворками, такими как React,
-            Angular, Vue и<br> другими. Умение использовать готовые решения, адаптировать их<br> под нужды проекта и
-            расширять
-            их функциональность, является<br> очень важным навыком.</p>
+        <div class="competition-box">
+          <div class="competition-htmlcss">
+            <h3 class="competition-name">HTML и CSS</h3>
+            <p class="competition-text">это основа фронтенд разработки. Умение создавать и правильно<br> структурировать
+              HTML-документы, а также
+              применять стили к этим<br> документам на CSS, является обязательным навыком для каждого<br> фронтенд
+              разработчика.
+            </p>
+          </div>
+          <div class="competition-java">
+            <h3 class="competition-name">JavaScript</h3>
+            <p class="competition-text">это язык программирования, который используется для создания<br> динамического и
+              интерактивного
+              пользовательского интерфейса.<br> Хороший фронтенд разработчик должен быть знаком с основами<br> JavaScript,
+              включая
+              работу с DOM-деревом, асинхронными<br> запросами и манипуляцией данными на стороне клиента.</p>
+          </div>
+          <div class="competition-lib">
+            <h3 class="competition-name">Работа с библиотеками и фреймворками</h3>
+            <p class="competition-text">фронтенд разработчики должны быть знакомы с различными<br> библиотеками и
+              фреймворками, такими как React,
+              Angular, Vue и<br> другими. Умение использовать готовые решения, адаптировать их<br> под нужды проекта и
+              расширять
+              их функциональность, является<br> очень важным навыком.</p>
+          </div>
+          <div class="competition-mob">
+            <h3 class="competition-name">Разработка для мобильных<br> устройств и адаптивная верстка</h3>
+            <p class="competition-text">фронтенд разработчики должны быть знакомы с различными<br> библиотеками и
+              фреймворками, такими как React,
+              Angular, Vue и<br> другими. Умение использовать готовые решения, адаптировать их<br> под нужды проекта и
+              расширять
+              их функциональность, является<br> очень важным навыком.</p>
+          </div>
         </div>
       </div>
     </section>

@@ -1,105 +1,83 @@
 .competition {
-    margin-top: 150px;
-  }
-  
-  .competition-name {
-    color: #1bff07;
-  }
-  
-  .competition-text {
-    margin-top: 15px;
-    font-size: 22px;
-    line-height: 29px;
-    color: #FFFFFF;
-  }
-  .htmlcss {
-    margin-top: 49px;
-  }
-  
-  
-.htmlcss::before {
-    margin-bottom: 12px;
-    content: "";
-    background-image: url("../resources1/htmlcss.png");
-    display: block;
-    width: 45px;
-    height: 44px;
-  }
-  
-  .java {
-    margin-top: 60px;
-  }
-  
-  .java::before {
-    margin-bottom: 15px;
-    content: "";
-    background-image: url("../resources1/java.png");
-    display: block;
-    width: 45px;
-    height: 44px;
-  
-  }
-
-  .lib {
-    margin-top: 59px;
-  }
-  
-  .lib::before {
-    margin-bottom: 17px;
-    content: "";
-    background-image: url("../resources1/lib.png");
-    display: block;
-    width: 45px;
-    height: 44px;
-  }
-  
-.mob {
-    margin-top: 59px;
-  }
-  
-  .mob::before {
-    margin-bottom: 17px;
-    content: "";
-    background-image: url("../resources1/mob.png");
-    display: block;
-    width: 45px;
-    height: 44px;
-  }
-  
-  
-/* .help {
   margin-top: 150px;
-} */
-.help-title {
-  margin-top: 150px;
-  margin-bottom: 74px;
-  font-size: 35px;
-  line-height: 46px;
 }
 
-.gray-block {
-  padding: 40px 0 0 40px;
-  margin-top: -3px;
-  margin-bottom: 76px;
-  background-image: url('../resources1/greyblock.png');
-  background-repeat: no-repeat;
-  height: 283px;
+.competition-name {
+  color: #79e8ef;
 }
 
-.next {
-  margin-bottom: 137px;
-}
-.bottom {
-  margin-bottom: 150px;
-}
- 
-.text-in-gray {
-  color: #1bff07;
- 
+.competition-text {
+  margin-top: 15px;
+  font-size: 22px;
+  line-height: 29px;
+  color: #e2feff;
 }
 
-.in-gray {
-  
-  left: 43px;
-  top: 42px;
+.competition-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 100px;
+}
+
+.competition-htmlcss {
+  margin-top: 49px;
+  width: 570px;
+}
+
+.competition-htmlcss::before {
+  background-color: #79e8ef;
+  margin-bottom: 12px;
+  content: "";
+  background-image: url("../resources1/htmlcss.png");
+  display: block;
+  width: 45px;
+  height: 44px;
+}
+
+.competition-java {
+  margin-top: 60px;
+  width: 570px;
+}
+
+.competition-java::before {
+  margin-bottom: 15px;
+  content: "";
+  background-image: url("../resources1/java.png");
+  display: block;
+  width: 45px;
+  height: 44px;
+}
+
+.competition-lib {
+  margin-top: 59px;
+  width: 570px;
+}
+
+.competition-lib::before {
+  margin-bottom: 17px;
+  content: "";
+  background-image: url("../resources1/lib.png");
+  display: block;
+  width: 45px;
+  height: 44px;
+}
+
+.competition-mob {
+  margin-top: 59px;
+  width: 570px;
+}
+
+.competition-mob::before {
+  margin-bottom: 17px;
+  content: "";
+  background-image: url("../resources1/mob.png");
+  display: block;
+  width: 45px;
+  height: 44px;
+}
+
+@media (max-width: 1199px) {
+.description-items {
+    width: calc(50% - 5px);}
 }

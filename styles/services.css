@@ -1,0 +1,40 @@
+  
+/* .help {
+  margin-top: 150px;
+} */
+.help-title {
+    margin-top: 150px;
+    margin-bottom: 74px;
+    font-size: 35px;
+    line-height: 46px;
+  }
+  
+  .gray-block {
+    height: 283px;
+    padding: 40px 0 0 40px;
+    margin-top: -3px;
+    margin-bottom: 76px;
+    background-image: url('../resources1/greyblock.png');
+    background-repeat: no-repeat;
+    border: 1px solid #ff015b;
+    border-radius: 30px;
+    
+  }
+  
+  .next {
+    margin-bottom: 137px;
+  }
+  .bottom {
+    margin-bottom: 150px;
+  }
+   
+  .text-in-gray {
+    color: #79e8ef;
+   
+  }
+  
+  .in-gray {
+    
+    left: 43px;
+    top: 42px;
+  }
