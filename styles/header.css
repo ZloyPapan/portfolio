@@ -4,14 +4,14 @@
   height: 39px;
   background: #110f25;
   border-radius: 10px;
-  border: 3px solid #e2feff;
-  box-shadow:  5px 5px 10px #e2feff;
+  border: 3px solid #ff015b;
+  box-shadow:  0px 0px 10px #ff015b;
 }
 .logo-text {
   font-family: "Roboto Flex";
   font-style: normal;
   font-weight: 900;
-  /* text-shadow: 2px 2px 4px #110f25; */
+  text-shadow: 0px 1px 4px #79e8ef;
   color: #79e8ef;
   font-size: 22px;
   line-height: 34px;
@@ -38,7 +38,7 @@ nav {
   line-height: 22px;
   text-align: left;
   text-decoration: none;
-  text-shadow: 2px 2px 4px #110f25;
+  text-shadow: 2px 2px 4px #ff015b;
   color: #e2feff;
   letter-spacing: -0.03em;
 }
@@ -67,6 +67,6 @@ nav {
   padding: 280px 0 29px 0;
   font-size: 20px;
   line-height: 26px;
-  color: #e2feff;
+  color: #79e8ef;
   text-shadow: 2px 2px 4px #110f25;
 }

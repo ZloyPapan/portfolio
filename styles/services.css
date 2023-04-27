@@ -1,9 +1,9 @@
   
-/* .help {
-  margin-top: 150px;
-} */
-.help-title {
-    margin-top: 150px;
+.services {
+  padding-top: 150px;
+}
+
+.services-title {
     margin-bottom: 74px;
     font-size: 35px;
     line-height: 46px;
@@ -12,7 +12,7 @@
   .gray-block {
     height: 283px;
     padding: 40px 0 0 40px;
-    margin-top: -3px;
+    /* margin-top: -3px; */
     margin-bottom: 76px;
     background-image: url('../resources1/greyblock.png');
     background-repeat: no-repeat;

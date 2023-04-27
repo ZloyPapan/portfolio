@@ -1,5 +1,5 @@
-.competition {
-  margin-top: 150px;
+.competitions {
+  padding-top: 150px;
 }
 
 .competition-name {
@@ -26,10 +26,14 @@
 }
 
 .competition-htmlcss::before {
-  background-color: #79e8ef;
+  background-color: #191c19;
+  border-radius: 10px;
+  border: 1px solid #ff015b;
   margin-bottom: 12px;
   content: "";
-  background-image: url("../resources1/htmlcss.png");
+  background-image: url("../resources1/Vector-html.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
   display: block;
   width: 45px;
   height: 44px;
@@ -41,9 +45,14 @@
 }
 
 .competition-java::before {
-  margin-bottom: 15px;
+  background-color: #191c19;
+  border-radius: 10px;
+  border: 1px solid #ff015b;
+  margin-bottom: 12px;
   content: "";
-  background-image: url("../resources1/java.png");
+  background-image: url("../resources1/Vector-js.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
   display: block;
   width: 45px;
   height: 44px;
@@ -55,9 +64,14 @@
 }
 
 .competition-lib::before {
-  margin-bottom: 17px;
+  background-color: #191c19;
+  border-radius: 10px;
+  border: 1px solid #ff015b;
+  margin-bottom: 12px;
   content: "";
-  background-image: url("../resources1/lib.png");
+  background-image: url("../resources1/Vector-lib.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
   display: block;
   width: 45px;
   height: 44px;
@@ -69,9 +83,14 @@
 }
 
 .competition-mob::before {
-  margin-bottom: 17px;
+  background-color: #191c19;
+  border-radius: 10px;
+  border: 1px solid #ff015b;
+  margin-bottom: 12px;
   content: "";
-  background-image: url("../resources1/mob.png");
+  background-image: url("../resources1/Vector-mob.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
   display: block;
   width: 45px;
   height: 44px;

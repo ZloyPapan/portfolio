@@ -35,7 +35,7 @@ h1 {
   font-family: "Roboto Flex";
   font-style: normal;
   font-weight: 900;
-  text-shadow: 2px 2px 4px #110f25;
+  text-shadow: 2px 2px 4px #ff015b;
   color: #e2feff;
   font-size: 80px;
   line-height: 69px;
@@ -69,6 +69,14 @@ h3 {
   margin: auto;
 }
 
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+  }
+  
+  
+  }
 
 
 
